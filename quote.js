@@ -40,7 +40,7 @@ router.post('/',
     backendRequest.cancer = Boolean(req.body.cancer === 'true');
     backendRequest.cvd = Boolean(req.body.cvd === 'true');
     // Call backend API
-    console.log("Calling backend API at " + backendUrl);
+    console.log("AHAHAHA Calling backend API at " + backendUrl);
     var theQuote = -1;
     var theBasis = "";
     request.post({
